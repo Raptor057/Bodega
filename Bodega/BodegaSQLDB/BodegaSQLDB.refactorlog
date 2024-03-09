@@ -154,4 +154,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="61a64248-d53e-4795-bb8f-9ccd34e4b37e" ChangeDateTime="03/09/2024 07:01:33">
+    <Property Name="ElementName" Value="[dbo].[Status].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Status]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8e853e7e-7741-4358-849b-1febbb9fbe07" ChangeDateTime="03/09/2024 07:13:18">
+    <Property Name="ElementName" Value="[dbo].[CuttedProcessList].[EmployeName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CuttedProcessList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EmployeeName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f9b2b4bd-0e98-43d1-b2fe-66e624bb06ed" ChangeDateTime="03/09/2024 07:13:34">
+    <Property Name="ElementName" Value="[dbo].[CuttedProcessList].[EmployeID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CuttedProcessList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EmployeeID" />
+  </Operation>
 </Operations>

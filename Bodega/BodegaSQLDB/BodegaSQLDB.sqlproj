@@ -72,6 +72,9 @@
     <Build Include="SupplierProduct.sql" />
     <Build Include="PurchaseOrder.sql" />
     <Build Include="UnitOfMeasureType.sql" />
+    <Build Include="RawMaterialList.sql" />
+    <Build Include="Status.sql" />
+    <Build Include="CuttedProcessList.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BodegaSQLDB.refactorlog" />
