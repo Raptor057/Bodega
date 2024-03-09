@@ -63,8 +63,20 @@
     <Build Include="Users.sql" />
     <Build Include="Roles.sql" />
     <Build Include="ProductCategory.sql" />
+    <Build Include="Employes.sql" />
+    <Build Include="MaritalStatusList.sql" />
+    <Build Include="GenderList.sql" />
+    <Build Include="CustomerList.sql" />
+    <Build Include="SupplierList.sql" />
+    <Build Include="CustomerProduct.sql" />
+    <Build Include="SupplierProduct.sql" />
+    <Build Include="PurchaseOrder.sql" />
+    <Build Include="UnitOfMeasureType.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BodegaSQLDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BodegaSQLDBPublish.publish.xml" />
   </ItemGroup>
 </Project>

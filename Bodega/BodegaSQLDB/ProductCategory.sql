@@ -9,5 +9,6 @@ ya que la columna ID de esta tabla servira como llave forantea para todas las an
 CREATE TABLE [dbo].[ProductCategory]
 (
 	[ID] INT NOT NULL PRIMARY KEY IDENTITY, --ID de category
-    [Category] VARCHAR(50) NOT NULL --Nombre de categoria
+    [Category] VARCHAR(50) NOT NULL, --Nombre de categoria
+	[RecordDateTime] DATETIME NOT NULL DEFAULT GETDATE() 
 )
